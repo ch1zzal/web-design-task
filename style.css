@@ -1,0 +1,7 @@
+body { font-family: sans-serif; background: #f0f2f5; margin: 0; }
+.header { background: #333; color: white; padding: 20px; text-align: center; }
+#search { padding: 10px; width: 300px; margin-top: 10px; border-radius: 5px; border: none; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 40px; }
+.card { background: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.btn { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+.btn.active { background: #28a745; }
